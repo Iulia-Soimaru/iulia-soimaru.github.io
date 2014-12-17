@@ -38,7 +38,7 @@ header img{
 }
 header .email{
   float: right;
-  position: relative;
+  position: absolute;
   top: 40px;
   right: 120px;
 }
@@ -54,7 +54,8 @@ header .email{
 section{
   width: 90%;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 section div{
   display: inline-block;
