@@ -1,0 +1,181 @@
+body{
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  color:#603942;
+}
+a{
+  text-decoration: none;
+}
+header{
+  width: 100%;
+  height: 680px;
+  background: url('coffee.jpg') no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+.nav{
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  opacity: 0.8;
+  background: #DBC28D;
+}
+h1{
+  display: block;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 40px;
+  width: 55px;
+  height: 55px;
+  background: orange;
+  border: 4px solid black;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 55px;
+}
+header ul{
+  float: right;
+  margin-right: 40px;
+  line-height: 55px;
+}
+li{
+  list-style: none;
+  margin-left: 25px;
+  padding: 0 15px;
+}
+ header li:hover{
+  background: orange;
+  border-radius: 20px;
+}
+h1, header ul, header li{
+  display: inline-block;
+}
+main{
+  text-align: center;
+  margin: auto;
+}
+.about{
+  padding-bottom: 60px;
+  width: 80%;
+  margin: auto;
+}
+.about img{
+  width: 140px;
+  height: 140px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.about h2, .about h3{
+  margin: 0 8px;
+}
+.skills{
+  margin-bottom: 60px;
+}
+.web-icons{
+  padding: 0;
+}
+.web-icons li{
+  display: inline-block;
+  margin-left: 10px;
+}
+.html img, .css img{
+  width: 90px;
+  height: 90px;
+}
+.git img, .jquery img{
+  height: 95px;
+  width: 230px;
+}
+.javascript img{
+  width: 150px;
+  height: 120px;
+}
+.ruby img{
+  width: 110px;
+  height: 90px;
+}
+.works > div{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+.work-1, .work-1 img, .work-3, .work-3 img{
+  width: 320px;
+  height: 400px;
+}
+.work-2, .work-2 img{
+  width: 470px;
+  height: 400px;
+}
+.work-1, .work-2, .work-3{
+  height: 480px;
+  margin-bottom: 80px;
+}
+.contact-info{
+  float: left;
+}
+.contact-info li{
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+.contact-info span{
+  font-style: italic;
+}
+.map{
+  float: right;
+  margin-bottom: 50px;
+}
+.map img{
+  width: 550px;
+  height: 300px;
+  margin-right: 60px;
+  border-radius: 20px;
+}
+footer{
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  clear: both;
+  text-align: center;
+  border-top: 2px solid #603942;
+}
+.icons{
+  float: left;
+}
+.icons li{
+  padding: 3px;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  margin-left: 7px;
+  border: 2px solid #B3B3B3;
+  border-radius: 10px;
+}
+.icons i{
+  color: #B3B3B3;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+}
+.icons i:hover{
+  color: orange;
+}
+.icons li:hover{
+  border: 2px solid orange;
+}
+.email{
+  float: right;
+}
+.email a{
+  display: block;
+  margin-top: 15px;
+  background: orange;
+  width: 150px;
+  height: 45px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 45px;
+  margin-right: 40px;
+}
