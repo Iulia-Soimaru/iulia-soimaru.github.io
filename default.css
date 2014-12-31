@@ -3,6 +3,7 @@ body{
   font-family: 'Nunito', sans-serif;
   margin: 0;
   color:#603942;
+  background: #F5EDE8;
 }
 a{
   text-decoration: none;
@@ -16,10 +17,10 @@ header{
 }
 .nav{
   position: fixed;
-  height: 90px;
+  height: 85px;
   width: 100%;
   opacity: 0.8;
-  background: #DBC28D;
+  background: #B19275;
 }
 h1{
   display: block;
@@ -28,11 +29,12 @@ h1{
   font-size: 40px;
   width: 55px;
   height: 55px;
-  background: orange;
-  border: 4px solid black;
+  background: #A1806C;
+  border: 4px solid #413336;
   border-radius: 10px;
   text-align: center;
   line-height: 55px;
+  color: #D9DFB7;
 }
 header ul{
   float: right;
@@ -45,8 +47,9 @@ li{
   padding: 0 15px;
 }
  header li:hover{
-  background: orange;
+  background: #A1806C;
   border-radius: 20px;
+  color: #D9DFB7;
 }
 h1, header ul, header li{
   display: inline-block;
@@ -54,11 +57,13 @@ h1, header ul, header li{
 main{
   text-align: center;
   margin: auto;
+  width: 95%;
 }
 .about{
   padding-bottom: 60px;
   width: 80%;
   margin: auto;
+  border-bottom: 2px solid #A1806C;
 }
 .about img{
   width: 140px;
@@ -71,6 +76,8 @@ main{
 }
 .skills{
   margin-bottom: 60px;
+  border-bottom: 2px solid #A1806C;
+  padding: 65px 0;
 }
 .web-icons{
   padding: 0;
@@ -95,18 +102,22 @@ main{
   width: 110px;
   height: 90px;
 }
+.works{
+  border-bottom: 2px solid #A1806C;
+  margin-bottom: 50px;
+}
 .works > div{
   display: inline-block;
   vertical-align: top;
-  margin-left: 20px;
+  margin-left: 35px;
 }
 .work-1, .work-1 img, .work-3, .work-3 img{
-  width: 320px;
-  height: 400px;
+  width: 260px;
+  height: 340px;
 }
 .work-2, .work-2 img{
-  width: 470px;
-  height: 400px;
+  width: 450px;
+  height: 340px;
 }
 .work-1, .work-2, .work-3{
   height: 480px;
@@ -138,7 +149,7 @@ footer{
   margin: auto;
   clear: both;
   text-align: center;
-  border-top: 2px solid #603942;
+  border-top: 2px solid #A1806C;
 }
 .icons{
   float: left;
@@ -150,20 +161,19 @@ footer{
   height: 37px;
   line-height: 37px;
   margin-left: 7px;
-  border: 2px solid #B3B3B3;
+  border: 2px solid #413336;
   border-radius: 10px;
+  background: #A1806C;
+  opacity: 0.7;
 }
 .icons i{
-  color: #B3B3B3;
+  color: #D9DFB7;
   width: 37px;
   height: 37px;
   line-height: 37px;
 }
 .icons i:hover{
-  color: orange;
-}
-.icons li:hover{
-  border: 2px solid orange;
+  color: #413336;
 }
 .email{
   float: right;
@@ -171,11 +181,14 @@ footer{
 .email a{
   display: block;
   margin-top: 15px;
-  background: orange;
+  background: #A1806C;
   width: 150px;
   height: 45px;
   border-radius: 10px;
   text-align: center;
   line-height: 45px;
   margin-right: 40px;
+  color: #D9DFB7;
+  padding: 5px;
+  opacity: 0.7;
 }
