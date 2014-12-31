@@ -13,7 +13,7 @@ header{
   height: 680px;
   background: url('coffee.jpg') no-repeat;
   background-size: cover;
-  margin-bottom: 40px;
+  margin-bottom: 120px;
 }
 .nav{
   position: fixed;
@@ -74,10 +74,12 @@ main{
 .about h2, .about h3{
   margin: 0 8px;
 }
+.skills, .works, .contacts, footer{
+  padding: 50px 0;
+}
 .skills{
   margin-bottom: 60px;
   border-bottom: 2px solid #A1806C;
-  padding: 65px 0;
 }
 .web-icons{
   padding: 0;
@@ -105,6 +107,10 @@ main{
 .works{
   border-bottom: 2px solid #A1806C;
   margin-bottom: 50px;
+}
+.works h2{
+  padding-bottom: 40px;
+  margin-top: 10px;
 }
 .works > div{
   display: inline-block;
@@ -135,7 +141,7 @@ main{
 }
 .map{
   float: right;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 .map img{
   width: 550px;
