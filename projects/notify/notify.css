@@ -1,0 +1,163 @@
+body{
+	margin: 0 auto;
+	text-align: center;
+	max-width: 800px;
+}
+	
+
+
+header{
+	margin: 0 auto;
+	color: green;
+	position: relative;
+}
+header img{
+	width: 800px;
+	border-top: 5px solid #12addb;
+}
+.header{
+	position: absolute;
+	top: 70px;
+	left: 80px;
+	color: white;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	position: relative;
+}
+.dot{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #12addb;
+	top: 50px;
+	left: 155px;
+	position: absolute;
+}
+p{
+	margin-bottom: 25px;
+}
+.circle{
+	width:20px;
+	height: 20px;
+	background-color: #b1bab9;
+	border-radius: 50%;
+	border: 10px solid #232a32;
+	display: inline-block;
+}
+.circle:hover{
+	background-color: white;
+	border: 10px solid #12addb;
+}
+
+
+
+
+nav{
+	text-align: center;
+	margin: 0 auto;
+}
+.circle-2{
+	background: white;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 15px solid #12addb;
+	margin: 18px auto;
+}
+.nav-size{
+	width: 140px;
+	display: inline-block;
+	margin: 0 30px;
+}
+.nav-text{
+	font-size: 13px;
+	color: #4f4c47;
+}
+
+
+
+
+.main{
+	background: #b1bab9;
+	height: 230px;
+	margin: 0 auto;
+	padding: 20px 40px;
+}
+.main-text{
+	color: #4f4c47;
+}
+.main-left{
+	float: left;
+	width: 300px;
+}
+.main-right{
+	float: right;
+}
+.main-right img{
+	width:300px; 
+	border: 2px solid #12addb;
+	display: inline-block;
+}
+.container{
+	position: relative;
+}
+input[type="e-mail"]{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border: 1px solid #4f4c47;
+	height: 30px;	
+}
+.notify{
+	width: 70px;
+	height: 32px;
+	background-color: #12addb;
+	border: 1px solid #12addb;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	position: absolute;
+	top: 0;
+	left: 219px;
+	color: white;
+	line-height: 32px;
+}
+
+
+
+.contacts-text{
+	color: #4f4c47;
+	font-style: italic;
+}
+.contacts>img{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+.contacts img:hover{
+	width: 55px;
+	height: 55px;
+	border: 1px solid #12addb;
+}
+.social{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #b1bab9;
+	display: inline-block;
+	margin: 0 5px 30px;
+}
+.social:hover{
+	background: #12addb;
+}
+
+
+footer{
+	height: 65px;
+	background: #b1bab9;
+}
+.footer{
+	display: inline-block;
+	color: #4f4c47;
+	margin: 20px 5px;
+	font-size: 13px;
+}
