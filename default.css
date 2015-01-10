@@ -18,6 +18,7 @@ header{
 }
 .nav{
   position: fixed;
+  z-index: 10;
   height: 85px;
   width: 100%;
   opacity: 0.8;
@@ -58,6 +59,18 @@ header a{
 }
 h1, header ul, header li{
   display: inline-block;
+}
+.quotes{
+  position: absolute;
+  top: 350px;
+  right: 220px;
+  font-size: 30px;
+  color: #E5E8D5;
+  text-shadow: 2px 2px #603942;
+}
+.quotes span{
+  font-size: 22px;
+  font-style: italic;
 }
 main{
   text-align: center;
