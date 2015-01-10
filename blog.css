@@ -66,12 +66,12 @@ main figure{
   display: inline-block;
 }
 main img {
-  width: 155px;
-  height: 170px;
+  width: 185px;
+  height: 180px;
   border-radius: 20px;
 }
-main a{
-
+.technical, .cultural {
+  margin-bottom: 100px;
 }
 footer{
   height: 100px;
