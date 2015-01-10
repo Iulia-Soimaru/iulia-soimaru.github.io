@@ -24,6 +24,7 @@ header{
   background: #B19275;
 }
 h1 .logo{
+  float: left;
   display: block;
   margin-left: 40px;
   font-size: 40px;
