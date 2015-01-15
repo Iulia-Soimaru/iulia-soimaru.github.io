@@ -120,3 +120,13 @@ footer .email{
 .icons i:hover{
   color: #99E0E0;
 }
+.up{
+  position: relative;
+  bottom: 45px;
+  left: 40px;
+}
+.up a{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
