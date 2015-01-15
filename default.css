@@ -2,17 +2,19 @@ body{
   width: 100%;
   font-family: 'Nunito', sans-serif;
   margin: 0;
-  color:#603942;
-  background: #F5EDE8;
+  color:#6B2A15;
 }
 a{
   text-decoration: none;
-  color:#603942;
+  color:#6B2A15;
+}
+a:hover{
+  color: #EB5D2F;
 }
 header{
   width: 100%;
   height: 680px;
-  background: url('coffee.jpg') no-repeat;
+  background: url('orange_chair.jpeg') no-repeat;
   background-size: cover;
   margin-bottom: 120px;
 }
@@ -21,22 +23,23 @@ header{
   z-index: 10;
   height: 85px;
   width: 100%;
-  opacity: 0.8;
-  background: #B19275;
+  opacity: 0.9;
+  background: #E2E3E5;
 }
 h1 .logo{
   float: left;
   display: block;
   margin-left: 40px;
-  font-size: 40px;
-  width: 45px;
-  height: 45px;
-  background: #A1806C;
-  border: 4px solid #413336;
+  font-size: 35px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background: #E88464;
+  border: 4px solid #EB5D2F;
   border-radius: 20px;
   text-align: center;
-  line-height: 45px;
-  color: #D9DFB7;
+  color: #E7E8EA;
+  margin-top: 7px;
 }
 header ul{
   float: right;
@@ -49,24 +52,29 @@ li{
 }
 header a{
   text-decoration: none;
-  color: #413336;
-  padding: 15px;
+  padding: 14px;
+  font-size: 20px;
+  font-weight: bold;
 }
  header a:hover{
-  background: #A1806C;
+  background: #EB5D2F;
   border-radius: 20px;
-  color: #D9DFB7;
+  color: #E7E8EA;
+}
+h1 a:hover{
+  color: #6B2A15;
+  border: 4px solid #6B2A15;
 }
 h1, header ul, header li{
   display: inline-block;
 }
 .quotes{
   position: absolute;
-  top: 350px;
-  right: 220px;
+  top: 140px;
+  right: 340px;
   font-size: 30px;
-  color: #E5E8D5;
-  text-shadow: 2px 2px #603942;
+  color: #E7E8EA;
+  text-shadow: 2px 2px #272926;
 }
 .quotes span{
   font-size: 22px;
@@ -75,13 +83,11 @@ h1, header ul, header li{
 main{
   text-align: center;
   margin: auto;
-  width: 95%;
 }
 .about{
   padding-bottom: 60px;
   width: 80%;
   margin: auto;
-  border-bottom: 2px solid #A1806C;
 }
 .about img{
   width: 140px;
@@ -97,14 +103,15 @@ main{
 }
 .skills{
   margin-bottom: 60px;
-  border-bottom: 2px solid #A1806C;
+  background: #E88464;
+  padding: 50px;
 }
 .web-icons{
   padding: 0;
 }
 .web-icons li{
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .html img, .css img{
   width: 90px;
@@ -123,7 +130,6 @@ main{
   height: 90px;
 }
 .works{
-  border-bottom: 2px solid #A1806C;
   margin-bottom: 50px;
 }
 .works h2{
@@ -137,6 +143,10 @@ main{
   display: inline-block;
   vertical-align: top;
   margin-left: 35px;
+}
+.works img{
+  border: 2px solid #EB5D2F;
+  border-radius: 10px;
 }
 .work-1, .work-1 img, .work-3, .work-3 img{
   width: 260px;
@@ -171,51 +181,59 @@ main{
   border-radius: 20px;
 }
 footer{
-  height: 100px;
+  min-height: 120px;
   width: 80%;
   margin: auto;
   clear: both;
   text-align: center;
-  border-top: 2px solid #A1806C;
+  border-top: 2px solid #EB5D2F;
 }
 .icons{
   float: left;
 }
-.icons li{
-  padding: 3px;
+.icons li, .email a{
+  opacity: 0.9;
   display: inline-block;
-  width: 37px;
-  height: 37px;
-  line-height: 37px;
-  margin-left: 7px;
-  border: 2.5px solid #413336;
   border-radius: 10px;
-  background: #A1806C;
-  opacity: 0.7;
+  background: #E88464;
+}
+.icons li{
+  padding: 5px;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  margin-left: 7px;
 }
 .icons i{
-  color: #D9DFB7;
-  width: 37px;
-  height: 37px;
-  line-height: 37px;
+  color: #E7E8EA;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
 }
 .icons i:hover{
-  color: #413336;
+  color: #EB5D2F;
+}
+.icons li:hover{
+  background: #E7E8EA;
+  border: 2px solid #EB5D2F;
+  padding: 3px;
 }
 .email{
   float: right;
 }
 .email a{
-  display: block;
   margin-top: 15px;
-  background: #A1806C;
   width: 150px;
   height: 45px;
-  border-radius: 10px;
   text-align: center;
   line-height: 45px;
   margin-right: 40px;
-  color: #D9DFB7;
+  color: #E7E8EA;
+  padding: 7px;
+}
+.email a:hover{
+  background: #E7E8EA;
+  color: #EB5D2F;
+  border: 2px solid #EB5D2F;
   padding: 5px;
-  opacity: 0.7;
 }

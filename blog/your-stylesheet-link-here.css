@@ -61,9 +61,12 @@ section div{
   display: inline-block;
   text-align: left;
 }
-section img {
+section img.img {
   width: 560px;
   height: 300px;
+}
+section a{
+  text-decoration: underline;
 }
 #bpm{
   width: 300px;
