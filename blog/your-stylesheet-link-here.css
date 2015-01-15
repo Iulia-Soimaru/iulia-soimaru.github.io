@@ -124,8 +124,9 @@ footer .email{
   position: relative;
   bottom: 45px;
   left: 40px;
+  max-width: 150px;
 }
-.up a{
+.up > a{
   color: white;
   font-weight: bold;
   font-size: 18px;
