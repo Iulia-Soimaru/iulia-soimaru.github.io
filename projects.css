@@ -59,6 +59,11 @@ header a{
   border-radius: 20px;
   color: #E7E8EA;
 }
+header .active{
+  background: #EB5D2F;
+  border-radius: 20px;
+  color: #E7E8EA;
+}
 h1 a:hover{
   background: white;
   color: #EB5D2F;
