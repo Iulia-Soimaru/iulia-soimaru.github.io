@@ -65,6 +65,9 @@ section img.img {
   width: 560px;
   height: 300px;
 }
+section img{
+  width: 600px;
+}
 section a{
   text-decoration: underline;
 }
@@ -82,6 +85,9 @@ section a{
 }
 .article{
   width: 50%;
+}
+.italic{
+  font-style: italic;
 }
 footer{
   width: 100%;
