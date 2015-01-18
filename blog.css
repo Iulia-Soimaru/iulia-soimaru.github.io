@@ -80,7 +80,7 @@ main{
 main h2{
   padding-bottom: 100px;
 }
-main h2:hover{
+main h2:hover, figure:hover{
   color: #EB5D2F;
   text-decoration: underline;
 }
