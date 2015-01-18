@@ -4,35 +4,40 @@ body{
   font-family: 'Nunito', sans-serif;
   margin: 0;
   color:#603942;
-  background: #F5EDE8;
 }
 a{
   text-decoration: none;
+  color:#6B2A15;
+}
+a:hover{
+  color: #EB5D2F;
 }
 header{
-  width: 100%;
-  height: 140px;
+  height: 150px;
 }
 .nav{
   position: fixed;
+  z-index: 10;
   height: 85px;
   width: 100%;
-  opacity: 0.8;
-  background: #B19275;
-  z-index: 5;
+  opacity: 0.9;
+  background: white;
+  box-shadow: 2px 2px #BCC1CC;
 }
 h1 .logo{
+  float: left;
   display: block;
   margin-left: 40px;
-  font-size: 40px;
-  width: 45px;
-  height: 45px;
-  background: #A1806C;
-  border: 4px solid #413336;
+  font-size: 35px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background: #E88464;
+  border: 4px solid #EB5D2F;
   border-radius: 20px;
   text-align: center;
-  line-height: 45px;
-  color: #D9DFB7;
+  color: #E7E8EA;
+  margin-top: 7px;
 }
 header ul{
   float: right;
@@ -43,21 +48,25 @@ li{
   list-style: none;
   margin-left: 25px;
 }
- header a{
+header a{
   text-decoration: none;
-  color: #413336;
-  padding: 15px;
+  padding: 14px;
+  font-size: 20px;
+  font-weight: bold;
 }
  header a:hover{
-  background: #A1806C;
+  background: #EB5D2F;
   border-radius: 20px;
-  color: #D9DFB7;
+  color: #E7E8EA;
+}
+h1 a:hover{
+  background: white;
+  color: #EB5D2F;
 }
 h1, header ul, header li{
   display: inline-block;
 }
 main{
-  width: 85%;
   text-align: center;
   margin: auto;
   padding-bottom: 100px;
@@ -68,59 +77,66 @@ main figure{
   min-height: 420px;
 }
 main img {
-  width: 500px;
+  width: 530px;
   height: 310px;
   border-radius: 20px;
+  border: 2px solid #EB5D2F;
 }
-main a{
-
+main h2{
+  padding-bottom: 100px;
 }
 footer{
-  height: 100px;
   width: 80%;
   margin: auto;
   clear: both;
   text-align: center;
-  border-top: 2px solid #A1806C;
+  border-top: 3px solid #E88464;
 }
-.icons{
-  float: left;
+.icons, .email{
+  display: inline-block;
+}
+.icons li, .email a{
+  opacity: 0.9;
+  display: inline-block;
+  border-radius: 10px;
+  background: white;
 }
 .icons li{
-  padding: 3px;
-  display: inline-block;
-  width: 37px;
-  height: 37px;
-  line-height: 37px;
+  padding: 5px;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
   margin-left: 7px;
-  border: 2.5px solid #413336;
-  border-radius: 10px;
-  background: #A1806C;
-  opacity: 0.7;
 }
 .icons i{
-  color: #D9DFB7;
-  width: 37px;
-  height: 37px;
-  line-height: 37px;
+  color: #6B2A15;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
 }
 .icons i:hover{
-  color: #413336;
+  color: #EB5D2F;
 }
-.email{
-  float: right;
+.icons li:hover{
+  border: 2px solid #EB5D2F;
+  padding: 3px;
 }
 .email a{
-  display: block;
-  margin-top: 15px;
-  background: #A1806C;
   width: 150px;
-  height: 45px;
-  border-radius: 10px;
+  height: 35px;
   text-align: center;
-  line-height: 45px;
-  margin-right: 40px;
-  color: #D9DFB7;
+  line-height: 35px;
+  margin-left: 100px;
+  color: #6B2A15;
+  padding: 7px;
+}
+.email a:hover{
+  color: #EB5D2F;
+  border: 2px solid #EB5D2F;
   padding: 5px;
-  opacity: 0.7;
+}
+footer > p{
+  clear: both;
+  margin: 0;
+  padding: 35px;
 }

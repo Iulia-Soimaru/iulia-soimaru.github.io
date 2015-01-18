@@ -1,0 +1,155 @@
+body{
+  margin:0 auto;
+  text-align:center;
+  width:600px;
+  color:#002a5f;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.location{
+  width: 600px;
+  margin-bottom: 5px;
+}
+.logo{
+  width:90px;
+  height: 90px;
+  float: left;
+  margin-top: 10px;
+
+}
+.location p{
+  float: left;
+  text-align: left;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.location a{
+  text-decoration: none;
+  float: right;
+  margin-top: 75px;
+}
+
+header{
+  border-top: 3px solid #002a5f;
+  clear: both;
+}
+p{
+  margin:10px 0;
+}
+
+
+
+div.block{
+  width:500px;
+  margin:0 auto;
+  height:367px;
+}
+.block .left{
+  float:left;
+}
+.block .right{
+  float:right;
+  margin:0 auto;
+}
+.info{
+  padding: 3px;
+}
+.digit{
+  font-size:90px;
+  color:#bed1d7;
+}
+img.kids{
+  width:250px;
+  height:367px;
+}
+.kids:last-child{
+  margin-bottom:20px;
+}
+
+
+
+
+div.main{
+  clear:both;
+  
+}
+div.ribbon{
+  background:#bed1d7;
+  width:600px;
+  height:40px;
+  border-radius:20px;
+  font-size:23px;
+  line-height:40px;
+}
+div.baby{
+  width:500px;
+  margin:0 auto;
+}
+ div .sale{
+  float:left;
+  font-size:50px;
+  padding-top:50px;
+  
+}
+span{
+  font-size:18px;
+}
+img.rabbit{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 65px;
+}
+img.girl{
+  float:right;
+  width:250px;
+  height:360px;
+  margin-bottom:40px;
+}
+
+.clothes {
+  width:600px;
+  border-top: 4px solid #bed1d7;
+  margin-bottom: 10px;
+}
+
+
+
+
+footer{
+  width:600px;
+  height:200px;
+ 
+}
+.barcode{
+  background-color:#002a5f;
+  width:285px;
+  height:180px;
+  color:white;
+  padding:5px;
+}
+.first{
+  float:left;
+}
+.second{
+  float:right;
+}
+img.code{
+  width:150px;
+  height:70px;
+}
+.barcode span{
+  font-size: 40px;
+}
+.barcode p{
+  font-size: 12px;
+}
+
+
+
+.line{
+  background-color: #002a5f;
+  width: 600px;
+  height: 4px; 
+  margin-bottom: 5px;
+}
