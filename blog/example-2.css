@@ -1,0 +1,123 @@
+html{
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+html, body{
+  height: 100%;
+}
+body{
+  margin: 0;
+  color: #185559;
+}
+a{
+  color: #185559;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.welcome, .social{
+  display: inline-block;
+}
+.welcome{
+  position: relative;
+  left: 12%;
+  top: 90px;
+  text-align: center;
+}
+.welcome h1{
+  text-shadow: 3px 3px #29838A;
+  font-size: 47px;
+}
+.welcome img{
+  width: 135px;
+  height: 135px;
+  border-radius: 20px;
+}
+.welcome figcaption{
+  font-size: 15px;
+  font-style: italic;
+}
+.social{
+  position: fixed;
+  right: 40px;
+  z-index: 5;
+}
+.icons li, .icons i{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.icons li{
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.icons i{
+  color: #185559;
+}
+.icons .fa:hover{
+  color: white;
+  border-bottom: 2px solid white;
+}
+li:last-child:hover .drop_menu {
+  display: block;
+}
+.icons .fa-list-ul:hover{
+  border-bottom: none;
+}
+.drop_menu{
+  display: none;
+  position: relative;
+  right: 215px;
+  width: 240px;
+  height: 250px;
+  overflow: scroll;
+  border-radius: 20px;
+  border: 2px solid white;
+  background: #77D5D5;
+}
+.drop_menu p{
+  text-decoration: underline;
+}
+.drop_menu a{
+  text-shadow: 1px 1px white;
+}
+section{
+  background: white;
+  width: 50%;
+  border-radius: 20px;
+  padding: 50px;
+  position: relative;
+  top: 350px;
+  left: 21%;
+  margin-bottom: 150px;
+}
+.title ul{
+  float: left;
+  padding-right: 65px;
+  font-style: italic;
+}
+.section .article{
+  margin: 20px;
+}
+.article h2{
+  text-decoration: underline;
+}
+.article img{
+  width: 620px;
+}
+footer{
+  position: relative;
+  bottom: -300px;
+}
+footer a{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+footer img{
+  width: 50px;
+  height: 50px;
+}
+
