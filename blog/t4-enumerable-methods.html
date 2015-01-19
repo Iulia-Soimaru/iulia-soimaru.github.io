@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+  <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="image">
+      <img src="photo.jpg" alt="">
+    </div>
+    <div class="name">
+      <p>Iulia Soimaru</p>
+      <ul class="icons">
+        <li>
+              <a target="_blank" href="https://twitter.com/Iulia_Soimaru"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+              <a target="_blank" href="https://www.linkedin.com/profile/view?id=117549846&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+              <a target="_blank" href="https://github.com/Iulia-Soimaru"><i class="fa fa-github"></i></a>
+          </li>
+      </ul>
+    </div>
+    <div class="email">
+      <a href="mailto:iuliashoimaru@gmail.com">Send me an e-mail</a>
+    </div>
+  </header>
+  <section>
+    <div class="left-box">
+      <ul>
+        <li>January 18, 2015</li>
+        <li><time>9:00 pm PST</time></li>
+        <li>DBC Phase-0 Unit-2 Week-4</li>
+        <li>Technical Blog</li>
+      </ul>
+    </div>
+    <div class="article">
+      <h2>Enumerable Methods in Ruby</h2>
+      <p class="post">
+        <p><strong>The Enumerable module</strong> provides a set of methods to traverse, search, sort and manipulate collections. Isn’t it clear? But I was still confused about what exactly Enumerable do. I read about Enumerable 10 times on different web-sites, and tried to apply some methods to my code, and finally now I understand how does it work!</p>
+        <p>If you are familiar with arrays: <br>
+          <img src="images/enum_array.png" alt=""><br>
+          and hashes: <br>
+          <img src="images/enum_hash.png" alt=""><br>
+          and loops: <br>
+          <img src="images/enum_loop.png" alt=""><br>
+          there's nothing new conceptually here. But you'll learn to do more with prettier, fewer lines of code.
+        </p>
+        <p>
+          <strong>Let’s take a look at some examples.</strong><br>
+          “Each” method helps us to iterate across a collection :
+          <img src="images/enum_each.png" alt=""><br>
+          <strong>each</strong> - a method belonging to an Array, and other collection classes. It's also known as an iterator, cycling through a code of block that acts or depends on each element in the collection. <br>
+          <strong>do</strong> - a Ruby keyword that signifies the beginning of a block of code. <br>
+          <strong>| animal |</strong> - the variable names within the pipe characters are the arguments passed into the block. In the case of each, the single argument refers to the element in the current iteration. <br>
+          <strong>end</strong> - closes the block of code used by each. <br><br>
+          “Map” method returns a copy of the its invoking collection :
+          <img src="images/enum_map.png" alt=""><br>
+          <strong>map</strong> is invoked by a collection and accepts a block of code that acts upon each element in that collection and returns that transformed collection.
+        </p>
+        <p><strong>What is the difference between “each” and “map” then?</strong><br>
+          <strong>“each”</strong> method just iterates over the given enumerable, running the block for each value. It discards the return value of the block, and each returns the original object it was called on: <br>
+          <img src="images/irb_each.png" alt=""><br><br>
+          <strong>“map”</strong> method sets the current element being iterated over to the return value of the block, and then returns a new object with changes: <br>
+          <img src="images/irb_map.png" alt=""> <br>
+        </p>
+        <p>To summarize everything written above, Enumerable Module, is a module that you can mix in. And “map” method and all other Enumerable iterating methods in fact are based off of “each” method.</p>
+        <p>Thank you for attention <br><br>
+          Best, <br>Iulia</p>
+      </p>
+    </div>
+  </section>
+  <footer class="social">
+    <div class="email">
+        <a href="mailto:iuliashoimaru@gmail.com">Send me an e-mail</a>
+      </div>
+    <div class="content">
+      <ul class="icons">
+        <li>
+            <a target="_blank" href="https://twitter.com/Iulia_Soimaru"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://www.linkedin.com/profile/view?id=117549846&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://github.com/Iulia-Soimaru"><i class="fa fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="up"><a href="#main">Scroll up >> </a></div>
+  </footer>
+</body>
+
+
+
