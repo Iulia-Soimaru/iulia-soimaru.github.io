@@ -86,6 +86,7 @@ main h2:hover, figure:hover{
 }
 main figure{
   display: inline-block;
+  width: 170px;
 }
 main img {
   width: 170px;

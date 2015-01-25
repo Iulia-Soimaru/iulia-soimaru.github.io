@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+  <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="image">
+      <img src="photo.jpg" alt="">
+    </div>
+    <div class="name">
+      <p>Iulia Soimaru</p>
+      <ul class="icons">
+        <li>
+              <a target="_blank" href="https://twitter.com/Iulia_Soimaru"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+              <a target="_blank" href="https://www.linkedin.com/profile/view?id=117549846&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+              <a target="_blank" href="https://github.com/Iulia-Soimaru"><i class="fa fa-github"></i></a>
+          </li>
+      </ul>
+    </div>
+    <div class="email">
+      <a href="mailto:iuliashoimaru@gmail.com">Send me an e-mail</a>
+    </div>
+  </header>
+  <section>
+    <div class="left-box">
+      <ul>
+        <li>January 24, 2015</li>
+        <li><time>5:00 pm PST</time></li>
+        <li>DBC Phase-0 Unit-2 Week-5</li>
+        <li>Technical Blog</li>
+      </ul>
+    </div>
+    <div class="article">
+      <h2>Objects and Classes in Ruby</h2>
+      <p class="post">
+        <p><strong>Ruby is an Object Oriented programming language.</strong> An object-oriented program involves classes and objects. Class is a blueprint, the blueprint tells Ruby how class should be structured and what it should do. We are working usually with strings, arrays, hashes, in Ruby we call these things classes. In Ruby everything is an Object. When we instantiate a new instance of a class <strong>my_name = NewClass.new(“Iulia”)</strong> this thing my_name is called Object. Every object is an instance of a class. <br></p>
+        <p>Let’s take a car to see how it works in a real world. Prototype of a car - is a class. In prototype I mean that every car has 4 wheels, steering wheel, transmission. When we are creating a new object, we take class as an example, we take properties of a car from our class, and create a new car, that may have another color, another size and etc. <strong>new_car = Car(“Audi”)</strong>. <br></p>
+        <p>It is very easy to create a new class, we will use just 3 words: <br>
+          <img src="images/class.png" alt=""> <br>
+        </p>
+        <p>When we call this class using method “new”, it means we are creating a new object: <br>
+          <img src="images/object.png" alt=""><br>
+        </p>
+        <p>Inside of our class we can write methods. Writing methods is very powerful, because they apply only to the individual instance that we are working on. The <strong>initialize method</strong> is a special type of method. In order to start using your object, it must first be initialized what means that it has any instance variables that needs initializing. Let’s take our Car class as an example: <br>
+          <img src="images/class_car.png" alt="">
+        </p>
+        <p>Now we will write a class with different methods inside of it. For this example we will take a bank account. Bank account is responsible for all data of a person that has this bank account. It could be person’s first name, last name, transactions that he has made, and the balance. <br>
+          <img src="images/bank_account.png" alt=""> <br>
+        </p>
+        <p>Looks complicated from first sight? Ok, let’s take a look at it step by step. <br><br>
+1)We are creating a class BankAccount. Naming class we have to write a capital letter first, and if we have 2 words in class name, we capitalize second word too (Bank or BankAccount). It is not necessary to capitalize second word, but it is how most Ruby programmers do. <br><br>
+2)We create initialize method, what is called when we instantiate our class. We take first and last name of the person as attributes of this method. And we are creating instance variables inside as well.<br><br>
+3)So what are instance variables? Instance variable - are variables that are available across different methods inside our class. We create this variable starting with “@” sign followed by the variable name (@variable).<br><br>
+4)Then we create new method called “transaction” because we want to show the person what transactions were made to his bank account. As arguments we take amount and location where this transaction was made. <br><br>
+5)New method earn_money keeps information of amount of money that was transferred to your account, and were did they come from.<br><br>
+6)New method spend money keeps information of spent amount of money (that’s why we use “-” sign before the amount word), and place where did you spend your money.<br><br>
+7)Every person wants to know how much money left on his bank account, so we create a method called “your_balance”, where we iterate through our transactions, since this variable is an array. And we add or deduct amount that was earned or spent, and return balance to the screen. <br><br>
+8)We want to have something like a summary, to show person’s name and his balance on the screen, so that’s why we created method “print_out_info”.<br><br>
+9)After we close our class with “end” word, we want to call this class creating an object bank_account. As arguments I took my first and last names. Then when we call earn_money method “bank_account.earn_money(500, "Work place”)” we will see amount added to our bank account, and where did money come from at this example we add a paycheck from your Work place with amount of 500 dollars.Then we call “spend_money” method “bank_account.spend_money(100, "Trader Joe’s”)” and we see how much money I spent, and where I spent them. Then we display balance on the bank account “bank_account.your_balance” and we print this information to the screen calling “print_out_info” method.<br><br>
+
+=> "Name: Iulia Soimaru, your balance is: 400" <br><br>
+        </p>
+        <p>All in all class is like a constructor that builds object. An object built by a specific class is called an instance of this class. Our object bank_account can’t do very much, but instances of classes like Array, String or Hash can do a lot :)
+Finally I finished this blog post. Honestly it wasn’t easy to write all of this! <br><br>
+          <img src="images/fox_ruby.jpg" alt="">
+        </p>
+        <p>Thank you for attention <br><br> Best, <br>Iulia</p>
+      </p>
+    </div>
+  </section>
+  <footer class="social">
+    <div class="email">
+        <a href="mailto:iuliashoimaru@gmail.com">Send me an e-mail</a>
+      </div>
+    <div class="content">
+      <ul class="icons">
+        <li>
+            <a target="_blank" href="https://twitter.com/Iulia_Soimaru"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://www.linkedin.com/profile/view?id=117549846&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://github.com/Iulia-Soimaru"><i class="fa fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+
+
