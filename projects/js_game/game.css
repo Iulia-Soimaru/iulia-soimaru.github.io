@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  background: grey;
+  text-align: center;
+}
+.main{
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  border-radius: 20px;
+  background: orange;
+}
+.pad{
+  width: 550px;
+  padding: 45px;
+  margin: auto;
+}
+.image{
+  display: inline-block;
+  padding: 30px;
+  border: 2px solid black;
+  margin: 3px;
+  background: lightblue;
+  width: 64px;
+  height: 68px;
+}
+.image img{
+  display: none;
+}
