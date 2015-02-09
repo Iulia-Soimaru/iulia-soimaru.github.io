@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  background: #BCE0DD;
+  text-align: center;
+  color: #196961;
+}
+.wrapper{
+  width: 65%;
+  margin: auto;
+}
+.counterBlock {
+  width: 50%;
+  margin: 10px auto;
+  border: 1px solid black;
+  color: grey;
+  padding: 10px;
+}
+.board{
+  background: #54BFB6;
+  width: 750px;
+  min-height: 400px;
+  margin: auto;
+  padding: 40px;
+  margin-bottom: 70px;
+}
+.board, .image_card, .counterBlock{
+  border-radius: 15px;
+}
+.board .image_card{
+  display: inline-block;
+  padding: 35px;
+  border: 1px solid black;
+  margin: 7px;
+  background: lightyellow;
+  width: 44px;
+  height: 44px;
+}
+.board img{
+  display: none;
+  width: 44px;
+  height: 44px;
+}
+.board .open{
+  display: block;
+}

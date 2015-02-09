@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+  <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="image">
+      <img src="photo.jpg" alt="">
+    </div>
+    <div class="name">
+      <p>Iulia Soimaru</p>
+      <ul class="icons">
+        <li>
+              <a target="_blank" href="https://twitter.com/Iulia_Soimaru"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+              <a target="_blank" href="https://www.linkedin.com/profile/view?id=117549846&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+              <a target="_blank" href="https://github.com/Iulia-Soimaru"><i class="fa fa-github"></i></a>
+          </li>
+      </ul>
+    </div>
+    <div class="email">
+      <a href="mailto:iuliashoimaru@gmail.com">Send me an e-mail</a>
+    </div>
+  </header>
+  <section>
+    <div class="left-box">
+      <ul>
+        <li>February 8, 2015</li>
+        <li><time>1:00 pm PST</time></li>
+        <li>DBC Phase-0 Unit-3 Week-7</li>
+        <li>Technical Blog</li>
+      </ul>
+    </div>
+    <div class="article">
+      <h2>Looping in Ruby vs. Looping in JavaScript</h2>
+      <p class="post">
+        <p>In programming a loop is the way to repeat the same action a certain amount of time. For example you want to display 10 random numbers on the screen. You could write a function that will give you a random number and then display it on the screen, but you will need to write this function 10 times, so why would we repeat the same code 10 times or what if we need to display 100 different numbers? In this case we can easily write a loop just once, and the loop will write the same function 10, 100 or 1000 times for us. <br><br>
+        <img src="images/loop.png" alt="">
+        </p>
+        <p>To show exactly how loop works we will take a real example. I will show you 2 most popular loops in Ruby and JavaScript - “while” loop and “for” loop. In Ruby you will mostly use “while” loop and in JavaScript you will mostly use “for” loop.</p>
+        <p><strong>While loop in Ruby:</strong><br>
+This is a simple example of method that prints numbers 1-10
+        <img src="images/while_ruby.png" alt=""></p>
+        <p>In first example we were printing numbers manually, so you can see that I am repeating the same word “puts” 10 times, what is Ok for 10 numbers, but it’s not fun to repeat the same code 100 times or more.
+So for this case we can use while loop. First we need to create a variable and give it a value of the first integer that we want to print on the screen:
+number = 1
+Then we are creating a loop that starts with “while” word and ends with “end” word. After “while” we are writing condition for our loop.
+while number <= 10
+When condition of our loop is true, we will keep getting something as a result, and when condition is false our loop stops working. So in this example when our number = 10, loop makes a break.</p>
+      <p><strong>While loop in JavaScript:</strong><br><br>
+        <img src="images/while.js.png" alt=""> <br>
+        You can see that JavaScript example is pretty similar to Ruby. Syntax is a little different. In JavaScript to define a variable we use “var” word followed with variable name, loop condition we always keep in parentheses and body of the loop is in curly braces. But logic of creating a loop is the same.
+      </p>
+      <p><strong>For loop in Ruby:</strong>
+        <img src="images/for_ruby.png" alt=""><br>
+        For loop is a common kind of loop in other programming languages, but it functions a little bit different in Ruby. A Ruby “for” loop is more like an iterator and functions very similar to “each” method. Ruby programmers prefer to use “each” method, and the reason for this is that the variable used in “for” loop exists outside of the loop, when in iterators they exist inside of the block.
+      </p>
+      <p><strong>For loop in JavaScript:</strong>
+        <img src="images/for_js.png" alt=""><br>For loop works very similar to while loop, but the code of this loop is cleaner and shorter.
+      </p>
+      </p>
+    </div>
+  </section>
+  <footer class="social">
+    <div class="email">
+        <a href="mailto:iuliashoimaru@gmail.com">Send me an e-mail</a>
+      </div>
+    <div class="content">
+      <ul class="icons">
+        <li>
+            <a target="_blank" href="https://twitter.com/Iulia_Soimaru"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://www.linkedin.com/profile/view?id=117549846&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://github.com/Iulia-Soimaru"><i class="fa fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+
+
