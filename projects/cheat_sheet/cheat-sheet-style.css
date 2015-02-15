@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+}
+body, a{
+  color: #2B455C;
+}
+span{
+  font-weight: bold;
+  font-size: 18px;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+*{
+  border-radius: 5px;
+}
+.blog a, .top-nav img{
+  background: #D1CFCF;
+}
+.top-nav{
+  padding: 0;
+  margin-bottom: 80px;
+}
+.top-nav li{
+  list-style: none;
+  width: 33%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.top-nav img{
+  width: 120px;
+  height: 105px;
+  padding: 20px;
+}
+.top-nav p{
+  line-height: 20px;
+}
+.top-nav figcaption{
+  font-size: 20px;
+}
+
+main{
+  width: 70%;
+  margin: auto;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.flashcard{
+  width: 410px;
+  height: 230px;
+  margin-bottom: 30px;
+  transition: transform 1s ease;
+}
+.flashcard:hover{
+    transform: rotateY(180deg);
+  }
+}
+.front, .description {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front{
+  z-index: 2;
+  padding: 50px;
+  font-size: 40px;
+}
+.description {
+  text-align: center;
+  overflow: hidden;
+  display: none;
+  background: #F0ECE9;
+  border: 2px solid #E0DCD7;
+  height: 190px;
+  padding: 20px;
+}
+.flashcard:hover .description{
+  display: block;
+  transform: rotateY(180deg);
+}
+.flashcard:hover .front{
+  display: none;
+}
+
+.red{background: #E0453D;}
+.lightred{background:#E38884;}
+.green{background: #2F9E3C;}
+.lightgreen{background: #74C27D;}
+.turquoise{background: #0E9986;}
+.lightturquoise{background: #7CCCC1;}
+.yellow{background: #EDFC11;}
+.lightyellow{background: #ECF088;}
+.orange{background: #F08341;}
+.lightorange{background: #F0AD84;}
+.violet{background: #5B4699;}
+.lightviolet{background: #9A8EBD;}
+
+footer{
+  clear: both;
+  padding: 120px;
+}
+footer div{
+  display: inline-block;
+}
+.blog a{
+  margin-right: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+}
+.blog a:hover{
+  background: #85CCBB;
+}
+.scroll-up{
+  float: right;
+}
+.scroll-up img{
+  width: 50px;
+  height: 50px;
+}
