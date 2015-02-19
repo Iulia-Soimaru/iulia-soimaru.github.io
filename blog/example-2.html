@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example-2</title>
+  <link rel="stylesheet" href="example-2.css">
+  <link href="../font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../bootstrap/scrolling-nav.css" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+  <header id="up">
+    <div class="welcome">
+      <h1>Welcome to my Blog</h1>
+      <figure>
+        <img src="../images/photo.jpg" alt="">
+        <figcaption>Iulia Soimaru <br> I am currently DevBootcamp student, and part of my learning process is <br> writting blog posts about my feelings, and programming things that I've learnt</figcaption>
+      </figure>
+      <h2>Title: Arrays and Hashes in Ruby</h2>
+    </div>
+    <div class="social">
+      <ul class="icons">
+        <li>
+          <a href="../main.html"><i class="fa fa-home"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://github.com/Iulia-Soimaru"><i class="fa fa-github"></i></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/profile/view?id=117549846&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+            <a target="_blank" href="https://twitter.com/Iulia_Soimaru"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="mailto:iuliashoimaru@gmail.com"><i class="fa fa-envelope"></i></a>
+        </li>
+        <li>
+          <i class="fa fa-list-ul"></i>
+          <div class="drop_menu">
+            <p>Technical blog:</p>
+            <a href="http://iulia-soimaru.github.io/blog/t1-git-blog.html">Version Control</a><br>
+            <a href="http://iulia-soimaru.github.io/blog/t2-css-design.html">CSS Design</a><br>
+            <a href="http://iulia-soimaru.github.io/blog/t3-arrays-hashes.html">Arrays and Hashes in Ruby</a><br>
+            <a href="http://iulia-soimaru.github.io/blog/t4-enumerable-methods.html">Ruby Enumerable Methods</a><br>
+            <p>Cultural Blog:</p>
+            <a href="http://iulia-soimaru.github.io/blog/c1-chefs-kitchen.html">Culture of DBC</a><br>
+            <a href="http://iulia-soimaru.github.io/blog/c3_thinking-style.html">Thinking and Learning Style</a><br>
+            <a href="http://iulia-soimaru.github.io/blog/c4-tech-issues.html">Issues in Tech Industry</a><br>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <a href="#up" class="scroll page-scroll"><img src="../images/double_arrow.png" alt=""></a>
+  </header>
+  <section>
+    <div class="title">
+      <ul>
+        <li>Date of blog post</li>
+        <li><time>1:00 pm PST</time></li>
+        <li>DBC Phase-0 Unit-1 Week-1</li>
+        <li>Technical Blog</li>
+      </ul>
+    </div>
+    <div class="article">
+      <h2>What is the difference between Arrays and Hashes?</h2>
+      <p class="post">
+      <p>
+      <strong>Array</strong> - is a data structure that works as a collection. In Ruby the collection can contain Objects, Classes and I would say anything. In other words I can say that array - is a container for data, were each element is an object, that has his own index number, that starts with [0]. All elements are stored in brackets [ ]. If you want to create new array, you can do it by writing “Array.new”
+      <img src="images/array.png" alt="" width="520px">
+      </p>
+      <p>
+        <strong>Hash</strong> - is a container structure as an array, that keeps different kinds data. The difference is that we are not getting data by it’s position or index, we store the data in something that we call “key”. Each key refers to the value. Keys mostly are going to be: strings, symbols or numbers. All elements are stored in curly brackets { }. If you want to create new hash, you can do it by writing “Hash.new”sage.
+        <img src="images/hash.png" alt="" width="520px">
+      </p>
+      <p>
+        Because everything in Ruby is an object, everything has “abilities” that we call methods. You can think about methods as a “skills” that every object has. No let’s see how to use Arrays and Hashes, we will go over some of the basic methods to review how everything works.
+      </p>
+      <p>
+      <strong>Arrays:</strong><br><br>
+        If I sent in 0 as an index for first array, it should return us number 1, if I sent a negative number like -1, it starts counting from the end, and will return us number 3.
+        <img src="images/array_1.png" alt="" width="520px"><br><br>
+        If we want to create one array, from 2 different arrays, we can easily use “+” method.
+        <img src="images/one_array.png" alt="" width="520px"><br><br>
+        We can check out how many elements we have in the array. We can use method “.length”, and it will return us a number of elements from our array.
+        <img src="images/array_length.png" alt="" width="520px"><br><br>
+        And if you want to add something to the array, you can use “.push” method, that will add item to the end of your array.
+        <img src="images/array_push.png" alt="" width="520px"><br><br>
+        <a target="_blanc" href="http://www.ruby-doc.org/core-2.2.0/Array.html">You can check more methods on ruby-doc.org</a>
+      </p>
+      <p>
+      <strong>Hashes:</strong><br><br>
+        First method that we will check will be method “keys”. When we apply “keys” to our hash, it will return us an array with keys elements that we have.
+        <img src="images/hash_keys.png" alt="" width="520px"><br><br>
+        And we can apply similar method to get all values from our hash.
+        <img src="images/hash_values.png" alt="" width="520px"><br><br>
+        We can also find how many keys, and values exist in the hash by applying method “.length”
+        <img src="images/hash_length.png" alt="" width="520px"><br><br>
+        And we can also convert our hash to array, that will has more arrays inside [key, value].
+        <img src="images/hash_to_array.png" alt="" width="520px"><br><br>
+        <a target="_blanc" href="http://www.ruby-doc.org/core-2.1.5/Hash.html">You can check more methods on ruby-doc.org</a>
+      </p>
+      <p>
+        To summarize all information from this subject, we can say that:
+        - Array is just a list of data that we get in some kind of order
+        - Hash is a collection of pairs of elements, where each pair has “key” and “value”
+      </p>
+      <p>
+        Thank you all for attention <br><br>
+
+        Best,
+        Iulia
+      </p>
+      </p>
+    </div>
+  </section>
+  <script src="../bootstrap/scrolling-nav.js"></script>
+  <script src="../bootstrap/jquery.easing.min.js"></script>
+</body>
+</html>

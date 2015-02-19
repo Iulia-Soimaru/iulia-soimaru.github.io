@@ -1,0 +1,124 @@
+html{
+  background: url("../images/psheno.png") no-repeat center center fixed;
+  background-size: cover;
+}
+html, body{
+  height: 100%;
+}
+body{
+  margin: 0;
+  color: #2D5070;
+}
+a{
+  color: #2D5070;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.welcome, .social{
+  display: inline-block;
+}
+.welcome{
+  position: relative;
+  left: 23%;
+  top: 90px;
+  text-align: center;
+  color: white;
+}
+.welcome h1{
+  text-shadow: 2px 2px #2D5070;
+  font-size: 47px;
+}
+.welcome img{
+  width: 135px;
+  height: 135px;
+  border-radius: 20px;
+}
+.welcome figcaption{
+  font-size: 19px;
+  font-style: italic;
+}
+.social{
+  position: fixed;
+  right: 40px;
+  z-index: 5;
+}
+.icons li, .icons i{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.icons li{
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.icons i{
+  color: #2D5070;
+}
+.icons .fa:hover{
+  color: white;
+  border-bottom: 2px solid white;
+}
+li:last-child:hover .drop_menu {
+  display: block;
+}
+.icons .fa-list-ul:hover{
+  border-bottom: none;
+}
+.drop_menu{
+  display: none;
+  position: relative;
+  right: 225px;
+  width: 240px;
+  height: 230px;
+  overflow: scroll;
+  border-radius: 20px;
+  border: 2px solid white;
+  background: #78A8B2;
+  color: #2D5070;
+}
+.drop_menu p{
+  text-decoration: underline;
+}
+.drop_menu a{
+  text-shadow: 1px 1px #A8D1C9;
+  font-size: 19px;
+}
+.scroll{
+  display: block;
+  float: right;
+  position: fixed;
+  right: 2%;
+  top: 87%;
+}
+.scroll img{
+  width: 70px;
+  height: 70px;
+}
+section{
+  background: white;
+  width: 55%;
+  border-radius: 20px;
+  padding: 60px;
+  position: relative;
+  top: 70%;
+  left: 17%;
+  margin-bottom: 150px;
+}
+.title ul{
+  float: left;
+  padding-right: 65px;
+  font-style: italic;
+}
+.section .article{
+  margin: 20px;
+}
+.article h2{
+  text-decoration: underline;
+}
+.article img{
+  width: 640px;
+}
+
