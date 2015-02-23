@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="js.css">
+  <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <h2>Welcome to our shopping list!!!</h2>
+  </header>
+  <main>
+    <section class="add">
+      <div class="wrapper">
+        <h3>Add Product</h3>
+      </div>
+        <ul>
+            <li><input id="itemName" type="text" value="add item here"></li>
+            <li><input id="addItem" type="submit" value="add"></li>
+         </ul>
+    </section>
+    <section class="list">
+      <div class="wrapper">
+        <h3>Shopping list</h3>
+        <button id="deleteAll">Delete All</button>
+      </div>
+        <div class="blockCount">You have <span id="count">0</span> items in your list<div>
+        <div id="shopping"></div>
+    </section>
+  </main>
+  <footer>
+    <p>Thank you! <a target="_blank" href="https://twitter.com/_tonymai">Tony Mai</a> and <a target="_blank" href="https://twitter.com/Iulia_Soimaru">Iulia Soimaru</a> <br>&copy 2015</p>
+  </footer>
+  <script src="js.js"></script>
+</body>
+</html>

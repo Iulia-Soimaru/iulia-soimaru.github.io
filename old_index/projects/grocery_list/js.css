@@ -1,0 +1,71 @@
+html{
+    background: url(clock.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+}
+body{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    color: #023C3D;
+}
+header, footer, a{
+    color: #DFEDD8;
+}
+main{
+    width: 50%;
+    margin: 30px auto;
+    background: #DFEDD8;
+    border-radius: 5px;
+    padding: 40px;
+}
+section{
+    margin-bottom: 60px;
+}
+li, input{
+    display: inline-block;
+}
+.wrapper{
+    width: 90%;
+    margin: auto;
+    border-bottom: 2px solid #023C3D;
+}
+h3, button{
+    display:inline-block;
+}
+#deleteAll{
+    float: right;
+    margin-top: 15px;
+}
+
+#itemName{
+    width: 340px;
+    height: 30px;
+    border-radius: 6px;
+    border: 3px solid #023C3D;
+    font-size: 17px;
+    background: #EDF5E9;
+    margin-right: 5px;
+}
+#addItem, button{
+    width: 100px;
+    height: 38px;
+    border-radius: 6px;
+    border: 3px solid #023C3D;
+    background: #145C58;
+    color: #DFEDD8;
+    font-size: 15px;
+}
+.blockCount{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.list ul{
+    margin: 5px;
+}
+.list li{
+    width: 50%;
+    overflow: scroll;
+    vertical-align: middle;
+}
